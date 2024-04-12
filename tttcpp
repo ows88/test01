@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//exterior angle is always 360
+
 void print_board(const vector<vector<char>>& board) {
     for (const auto& row : board) {
         for (char cell : row) {
